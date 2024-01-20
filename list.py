@@ -7,7 +7,7 @@ myList.append(3)
 # print(myList[2])
 
 
-# for x in myList: print(x)
+for x in myList: print(x)
     
 myList = [1,2,3]
 # print(myList[10]) # error
