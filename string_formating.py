@@ -20,8 +20,22 @@ print("A list: %s:" % myList)
 
 # %x/%X - Integers in hex representation (lowercase/uppercase)
 
-greetings = "Hello"
-name = "John Doe"
-balance = 53.44
+# greetings = "Hello"
+# name = "John Doe"
+# balance = 53.44
 
-print("%s %s. Your Current Balance is: %d" % (greetings, name, balance))
+# print("%s %s. Your Current Balance is: %d" % (greetings, name, balance))
+
+# first_name = "John"
+# last_name = "Doe"
+# balance = 53.44
+
+# output_string = "Hello {}. {}. Your current balance is ${:.2f}.".format(first_name, last_name, balance)
+
+# print(output_string)
+
+
+data = ("John", "Doe", 53.44)
+format_string = "Hello %s %s. Your current balance is $%.2f."
+
+print(format_string % data)
