@@ -10,7 +10,7 @@ class MyHandler(FileSystemEventHandler):
             restart_script()
 
 def restart_script():
-    subprocess.run(["python", "list.py"])
+    subprocess.run(["python", "basic_operators.py"])
 
 def watch():
     event_handler = MyHandler()
