@@ -1,4 +1,0 @@
-1: https://learnpython.org/en/String_Formatting
-2: https://www.kaggle.com/code/alexisbcook/arithmetic-and-variables
-3: https://pythonbasics.org/getting-started/
-4: https://www.py4e.com/
