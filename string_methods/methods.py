@@ -124,7 +124,7 @@ print(split_text.partition("+"))
 
 # 31: removeprefix() - Returns a copy of the string with the specified `prefix` removed.
 remove_prefix: str = "What Up"
-print(remove_prefix.removeprefix("Whats"))
+print(remove_prefix.removeprefix("What"))
 
 # 32: removesuffix() - Returns a copy of the string with the specified `suffix` removed.
 remove_suffix: str = "Mister Everyone"
