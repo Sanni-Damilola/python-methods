@@ -1,2 +1,5 @@
 print("sanni".capitalize())
 print("MaRiO".casefold())
+print("center".center(40, "-"))
+print("abcabcabc".count(("ab")))
+print()
