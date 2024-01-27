@@ -1,10 +1,6 @@
-def get_all_list_methods():
-    count = 0
-    for method in dir(list):
-        if not "__" in method:
-            count += 1
-            print(count, method)
+# 1: Append
+people = ["Carl Johnson", "Sweet", "Big Smoke"]
+people.append("Sanni")
+print(people)
 
-get_all_list_methods()
-
-
+# 2: Clear
