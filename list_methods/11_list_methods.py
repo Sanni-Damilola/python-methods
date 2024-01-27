@@ -1,5 +1,5 @@
 # 1: Append()
-people = ["Carl Johnson", "Sweet", "Sweet", "Big Smoke"]
+people = ["Carl Johnson", "Sweet", "Sweet", "Big Smoke", "bola", "anu"]
 people.append("Sanni")
 # print(people)
 
@@ -29,4 +29,20 @@ print(people.index("Sweet"))
 extend_list1.insert(0,"0")
 print(extend_list1)
 
-# 8:
+# 8: pop()
+extend_list1.pop(0)
+print(extend_list1)
+
+# 9: remove()
+extend_list1.remove(1)
+print(extend_list1)
+
+# 10: reverse()
+extend_list1.reverse()
+print(extend_list1)
+
+# 11 sort()
+people.sort()
+print(people)
+people.sort(key=lambda name: len(name))
+print(people)
